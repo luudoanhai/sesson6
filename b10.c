@@ -16,7 +16,6 @@ int main() {
         n = abs(n);
     }
 
-    // Đảo ngược số để in chữ số từ trái sang phải
     int reversed = 0;
     int temp = n;
     while (temp > 0) {
@@ -24,7 +23,6 @@ int main() {
         temp /= 10;
     }
 
-    // In từng chữ số
     while (reversed > 0) {
         printf("Chu so: %d\n", reversed % 10);
         reversed /= 10;
@@ -32,3 +30,4 @@ int main() {
 
     return 0;
 }
+
